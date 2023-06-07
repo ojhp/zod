@@ -10,3 +10,7 @@ repository = "https://github.com/ojhp/zod"
 license = "MIT"
 keywords = ["game", "roguelike"]
 categories = ["games"]
+
+[dependencies]
+phf = { version = "0.11", features = ["macros"] }
+sdl2 = { version = "0.35", features = ["image"] }
